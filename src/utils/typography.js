@@ -18,11 +18,13 @@ OceanBeach.overrideThemeStyles = () => {
   }
 }
 
+console.log(OceanBeach.googleFonts)
+delete OceanBeach.googleFonts
+
 const typography = new Typography(OceanBeach)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {
-  console.log("style is injected")
   typography.injectStyles()
 }
 

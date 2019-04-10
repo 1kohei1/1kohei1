@@ -69,6 +69,14 @@ module.exports = {
         icon: `content/assets/gatsby-icon.png`,
       },
     },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: {
+          families: ["Roboto Slab:700", "Roboto:400,400i,700"],
+        },
+      },
+    },
     `gatsby-plugin-offline`,
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-react-helmet`,
