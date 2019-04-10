@@ -1,17 +1,20 @@
 import Typography from "typography"
-import Wordpress2016 from "typography-theme-wordpress-2016"
+import OceanBeach from "typography-theme-ocean-beach"
 
-Wordpress2016.overrideThemeStyles = () => {
+OceanBeach.overrideThemeStyles = () => {
   return {
-    "a.gatsby-resp-image-link": {
-      boxShadow: `none`,
+    "h1, h2, h3, h4, h5, h6": {},
+    a: {
+      backgroundImage: "none",
+    },
+    "a:hover": {
+      backgroundImage:
+        "linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 1px, #950451 1px, #950451 2px, rgba(0, 0, 0, 0) 2px)",
     },
   }
 }
 
-delete Wordpress2016.googleFonts
-
-const typography = new Typography(Wordpress2016)
+const typography = new Typography(OceanBeach)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {

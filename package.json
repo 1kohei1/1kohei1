@@ -10,6 +10,7 @@
     "@weknow/gatsby-remark-twitter": "^0.2.1",
     "gatsby": "^2.3.16",
     "gatsby-image": "^2.0.37",
+    "gatsby-plugin-catch-links": "^2.0.13",
     "gatsby-plugin-feed": "^2.1.0",
     "gatsby-plugin-google-analytics": "^2.0.18",
     "gatsby-plugin-manifest": "^2.0.28",
@@ -33,7 +34,7 @@
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54",
     "typography": "^0.16.19",
-    "typography-theme-wordpress-2016": "^0.16.19"
+    "typography-theme-ocean-beach": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "^1.16.4"
