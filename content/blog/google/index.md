@@ -8,8 +8,6 @@ description: 2019/04/09にオファーをもらい、Googleで働くことにな
 
 なお、僕の場合はアメリカ生活が長いこともあり英語は問題になりませんでした。
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">GoogleからのオファーをacceptしたのでGoogleに転職します！<br>ずっと憧れだったので嬉しい:)<br><br>とにかくいいコードをたくさん読んで、いいコードをかけるようになります！</p>&mdash; Kohei@シリコンバレー (@koheiarai94) <a href="https://twitter.com/koheiarai94/status/1115717398508654592?ref_src=twsrc%5Etfw">April 9, 2019</a></blockquote>
-
 ## リクルータから連絡がくる (2018.11)
 
 Hello again from Google!というタイトルのメールが2018年の11月に届きます。内容は近況を知りたいとのことでした。実は一年ほど前に僕はGoogle Foobar Challengeに取り組んでおり、連絡先を渡していました。Foobar Challengeとは、Googleからランダムに招待されるプログラミングチャレンジのことです。このチャンレンジである程度の問題まで解くとGoogleで働くことに興味はあるかと聞かれ、リクルーティングプロセスが始まります。
