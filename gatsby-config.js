@@ -45,7 +45,6 @@ module.exports = {
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
-          `@weknow/gatsby-remark-twitter`,
         ],
       },
     },
@@ -73,6 +72,7 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-twitter`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
