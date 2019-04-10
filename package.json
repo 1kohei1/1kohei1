@@ -1,11 +1,10 @@
 {
-  "name": "gatsby-starter-blog",
-  "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "1kohei1",
+  "description": "1kohei1.com",
+  "version": "1.0.0",
+  "author": "Kohei Arai <tobecomebig@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/1kohei1/1kohei1/issues"
   },
   "dependencies": {
     "@weknow/gatsby-remark-twitter": "^0.2.1",
@@ -39,7 +38,7 @@
   "devDependencies": {
     "prettier": "^1.16.4"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/1kohei1/1kohei1#readme",
   "keywords": [
     "gatsby"
   ],
@@ -47,7 +46,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/1kohei1/1kohei1.git"
   },
   "scripts": {
     "build": "gatsby build",
