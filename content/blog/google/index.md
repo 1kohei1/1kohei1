@@ -99,6 +99,6 @@ LeetCodeなどを解き、充分に準備できたと思ったのでPhone Interv
 
 ![Atcoder rating](./atcoder-rating.png)
 
-水色以上の方はGoogleに入れる可能性が充分にあるといっていいのが僕の考えです。
+「水色以上の方はGoogleに入れる可能性が充分にあるといっていい」が僕の考えです。
 
 以上になります！質問や相談等は僕の[Twitterアカウント](https://twitter.com/koheiarai94)までおねがいします:)
