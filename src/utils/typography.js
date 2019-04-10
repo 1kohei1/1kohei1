@@ -4,6 +4,10 @@ import OceanBeach from "typography-theme-ocean-beach"
 OceanBeach.overrideThemeStyles = () => {
   return {
     "h1, h2, h3, h4, h5, h6": {},
+    "twitter-widget": {
+      marginLeft: "auto",
+      marginRight: "auto",
+    },
     a: {
       backgroundImage: "none",
     },
