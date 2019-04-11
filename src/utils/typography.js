@@ -18,9 +18,6 @@ OceanBeach.overrideThemeStyles = () => {
   }
 }
 
-console.log(OceanBeach.googleFonts)
-delete OceanBeach.googleFonts
-
 const typography = new Typography(OceanBeach)
 
 // Hot reload typography in development.
