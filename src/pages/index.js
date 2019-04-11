@@ -11,10 +11,12 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
+    const isRoot = this.props.location.pathname === `${__PATH_PREFIX__}/`
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout isRoot={isRoot} title={siteTitle}>
         <SEO
+          isRoot={isRoot}
           title={siteTitle}
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
