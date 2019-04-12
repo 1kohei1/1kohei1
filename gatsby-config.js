@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `新井康平`,
     author: `Kohei Arai`,
-    description: `Kohei Arai's Blog`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `シリコンバレーで働き始めたエンジニアのブログ`,
+    siteUrl: `https://1kohei1.com/`,
     social: {
       twitter: `koheiarai94`,
     },
@@ -73,12 +73,6 @@ module.exports = {
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-twitter`,
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
     `gatsby-plugin-netlify`,
   ],
 }

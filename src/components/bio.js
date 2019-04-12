@@ -8,8 +8,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 
-import { rhythm } from "../utils/typography"
-
 function Bio() {
   return (
     <StaticQuery
@@ -17,11 +15,7 @@ function Bio() {
       render={data => {
         const { social } = data.site.siteMetadata
         return (
-          <div
-            style={{
-              marginBottom: rhythm(2.5),
-            }}
-          >
+          <div className="bio">
             <p>
               シリコンバレーで働きだしたエンジニアのブログ
               <br />
