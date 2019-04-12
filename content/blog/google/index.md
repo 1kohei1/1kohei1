@@ -31,7 +31,7 @@ JSについての勉強が意外と長引いてしまったため、リクルー
 
 などを話しました。電話のあとには、Phone interviewに準備するためのYouTubeビデオがメールで送られてきました。このビデオは送られてきたうちの一つです。問題に対してどのようなアプローチを求めているのかがわかります。
 
-`youtube: https://www.youtube.com/watch?v=XKu_SEDAykw`
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XKu_SEDAykw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Phone Interview (2019.03.07)
 
