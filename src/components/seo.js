@@ -26,6 +26,17 @@ function SEO({ description, lang, meta, keywords, title, isRoot }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+  let keys = [
+    "新井康平",
+    "エンジニア",
+    "シリコンバレー",
+    "サンフランシスコ",
+    "Kohei Arai",
+    "アメリカ",
+  ]
+  if (keywords && keywords.length > 0) {
+    keys = keys.concat(keywords)
+  }
 
   return (
     <Helmet
@@ -69,10 +80,10 @@ function SEO({ description, lang, meta, keywords, title, isRoot }) {
         },
       ]
         .concat(
-          keywords.length > 0
+          keys.length > 0
             ? {
                 name: `keywords`,
-                content: keywords.join(`, `),
+                content: keys.join(`, `),
               }
             : []
         )
