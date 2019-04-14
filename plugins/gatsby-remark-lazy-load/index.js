@@ -1,5 +1,4 @@
 const visit = require("unist-util-visit-parents")
-const fs = require("fs")
 
 module.exports = ({ markdownAST }) => {
   const htmls = []
@@ -11,7 +10,7 @@ module.exports = ({ markdownAST }) => {
   return Promise.all(
     imageNodes.map(
       imageNode =>
-        new Promise((resolve, reject) => {
+        new Promise(resolve => {
           // Add class lazyload
           imageNode.value = imageNode.value.replace(
             "gatsby-resp-image-image",
