@@ -28,6 +28,7 @@
     "gatsby-source-filesystem": "^2.0.29",
     "gatsby-transformer-remark": "^2.3.8",
     "gatsby-transformer-sharp": "^2.1.17",
+    "lazysizes": "^4.1.7",
     "prismjs": "^1.16.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -36,7 +37,8 @@
     "typeface-roboto": "0.0.54",
     "typeface-roboto-slab": "0.0.72",
     "typography": "^0.16.19",
-    "typography-theme-ocean-beach": "^0.16.19"
+    "typography-theme-ocean-beach": "^0.16.19",
+    "unist-util-visit-parents": "^2.0.1"
   },
   "devDependencies": {
     "prettier": "^1.16.4"

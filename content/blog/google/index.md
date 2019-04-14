@@ -38,7 +38,7 @@ JSについての勉強が意外と長引いてしまったため、リクルー
 
 などを話しました。電話のあとには、Phone interviewに準備するためのYouTubeビデオがメールで送られてきました。このビデオは送られてきたうちの一つです。問題に対してどのようなアプローチを求めているのかがわかります。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XKu_SEDAykw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" data-src="https://www.youtube.com/embed/XKu_SEDAykw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="lazyload"></iframe>
 
 ## Phone Interview (2019.03.07)
 
@@ -81,7 +81,7 @@ LeetCodeで対策し、充分に準備できたと思ったのでPhone Interview
 
 最初多めにふっかけ、相手が考える適正価格を把握しながら最終的に希望を出します。
 
-後日リクルータが決まった金額を持ってきました。僕はそれに異論なかったので、その条件で話が進みます。働き始める日を決めれば正式なオファーが届きます。それにサインをすれば一段落です。
+後日リクルータが決まった金額を持ってきました。異論なかったので、その条件で話が進みます。働き始める日を決めれば正式なオファーが届きます。それにサインをすれば一段落です。
 
 犯罪歴がないかのチェックや、現職の同僚・前職のボスからの勤務態度などの裏付けが残っていますが、それらはよっぽど黒いことがないとオファーは覆られないはずです。
 
@@ -92,7 +92,7 @@ LeetCodeで対策し、充分に準備できたと思ったのでPhone Interview
 1. 問題を解く力を養うための訓練
 2. 面接で自分の考えを説明する訓練
 
-1に関してはLeetCodeをたくさん解きました。合計で200問ほど解き、復習が必要だと思う問題に関してはスプレッドシートにまとめ複数回ときました。解法が理解できなかった質問もスプレッドシートに加え、時間をおいて再度訪れるようにしました。友達がコーディング面接対策の本を書いていたため、実験台となりコンセプトごとにたくさん問題を解きました。
+1に関してはLeetCodeをたくさん解きました。合計で200問ほど解き、復習が必要だと思う問題に関してはスプレッドシートにまとめ複数回ときました。解法が理解できなかった質問もスプレッドシートに加え、時間をおいて再度訪れるようにしました。友達が[コーディング面接対策の本](https://github.com/liyin2015/Algorithms-and-Coding-Interviews/blob/master/Preparing_for_the_real-world_software_engineering.pdf)を書いていたため、実験台となりコンセプトごとにたくさん問題を解きました。
 
 2に関しては実際に人の手を借りる対策とオンラインを使った対策の2つを行いました。Googleに転職した友達や知り合いのGooglerの方に頼んで模擬面接を行ってもらいました。オンラインでは有料で模擬面接を行ってくれる[Technical Mock Interview](https://www.techmockinterview.com)を使用しどんなことが聞かれるかを把握しました。
 
@@ -104,6 +104,6 @@ LeetCodeで対策し、充分に準備できたと思ったのでPhone Interview
 
 ![Atcoder rating](./atcoder-rating.png)
 
-「水色以上の方はGoogleに入れる可能性が充分にあるといっていい」が僕の考えです。
+「水色以上の方はGoogleに入れる可能性が充分にある」が僕の考えです。
 
 以上になります！質問や相談等は僕の[Twitterアカウント](https://twitter.com/koheiarai94)までおねがいします:)
