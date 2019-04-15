@@ -13,6 +13,8 @@ description: 2019/04/09にオファーをもらい、Googleで働くことにな
 
 念願だったGoogleからオファーが届き、働けることになりそうです。この記事ではオファーをもらうにいたるまでの経緯と自分のした準備をまとめます。
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">GoogleからのオファーをacceptしたのでGoogleに転職します！<br>ずっと憧れだったので嬉しい:)<br><br>とにかくいいコードをたくさん読んで、いいコードをかけるようになります！</p>&mdash; Kohei@シリコンバレー (@koheiarai94) <a href="https://twitter.com/koheiarai94/status/1115717398508654592?ref_src=twsrc%5Etfw">April 9, 2019</a></blockquote>
+
 なお、僕の場合はアメリカ生活が長いので英語は問題になりませんでした。
 
 ## リクルータから連絡がくる (2018.11)
