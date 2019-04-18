@@ -68,6 +68,13 @@ module.exports = {
         icon: `content/assets/gatsby-icon.png`,
       },
     },
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        color: `#950451`,
+        showSpinner: false,
+      },
+    },
     `gatsby-plugin-offline`,
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-react-helmet`,
