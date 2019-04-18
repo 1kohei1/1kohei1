@@ -7,7 +7,7 @@ module.exports = {
     social: {
       twitter: `koheiarai94`,
     },
-    defaultImage: "https://1kohei1.com/static/default-image.jpeg",
+    defaultImage: "https://1kohei1.com/default-image.jpeg",
   },
   plugins: [
     {
