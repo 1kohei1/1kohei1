@@ -8,6 +8,7 @@ keywords:
   - Google 転職
   - 面接
   - アメリカ就職
+image: ./google-building.jpg
 description: 2019/04/09にオファーをもらい、Googleで働くことになったのでその経緯をまとめました。
 ---
 

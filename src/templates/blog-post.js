@@ -11,12 +11,20 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
+    let image = undefined
+    if (post.frontmatter.image) {
+      const siteUrl = this.props.data.site.siteMetadata.siteUrl
+      const imageUrl = post.frontmatter.image.childImageSharp.fixed.src
+      image = `${siteUrl}${imageUrl}`
+    }
+
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
           keywords={post.frontmatter.keywords || []}
+          image={image}
         />
         <h1>{post.frontmatter.title}</h1>
         <p className="post-date">{post.frontmatter.date}</p>
@@ -51,6 +59,7 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        siteUrl
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -62,6 +71,13 @@ export const pageQuery = graphql`
         date(formatString: "YYYY/MM/DD")
         description
         keywords
+        image {
+          childImageSharp {
+            fixed(width: 600) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
       }
     }
   }
