@@ -56,6 +56,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
+    "bs": "npm run build && npm run serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   }
 }
