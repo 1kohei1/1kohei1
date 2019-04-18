@@ -19,7 +19,6 @@ function SEO({ description, lang, meta, keywords, title, isRoot, image }) {
             title
             description
             author
-            defaultImage
           }
         }
       }
@@ -27,7 +26,6 @@ function SEO({ description, lang, meta, keywords, title, isRoot, image }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  image = image || site.siteMetadata.defaultImage
   let keys = [
     "新井康平",
     "エンジニア",
@@ -65,10 +63,6 @@ function SEO({ description, lang, meta, keywords, title, isRoot, image }) {
           content: `website`,
         },
         {
-          property: `og:image`,
-          content: image,
-        },
-        {
           name: `twitter:card`,
           content: `summary_large_image`,
         },
@@ -84,10 +78,6 @@ function SEO({ description, lang, meta, keywords, title, isRoot, image }) {
           name: `twitter:description`,
           content: metaDescription,
         },
-        {
-          name: `twitter:image`,
-          content: image,
-        },
       ]
         .concat(
           keys.length > 0
@@ -95,6 +85,20 @@ function SEO({ description, lang, meta, keywords, title, isRoot, image }) {
                 name: `keywords`,
                 content: keys.join(`, `),
               }
+            : []
+        )
+        .concat(
+          image
+            ? [
+                {
+                  name: `twitter:image`,
+                  content: image,
+                },
+                {
+                  property: `og:image`,
+                  content: image,
+                },
+              ]
             : []
         )
         .concat(meta)}
