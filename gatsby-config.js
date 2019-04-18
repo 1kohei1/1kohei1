@@ -31,7 +31,6 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
-              showCaptions: true,
             },
           },
           "gatsby-remark-lazy-load",

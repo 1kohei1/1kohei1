@@ -677,10 +677,3 @@ twitter-widget {
 .post-separator {
   margin-bottom: 1.58rem;
 }
-a.gatsby-resp-image-link:hover {
-  background-image: none;
-}
-figure.gatsby-resp-image-figure figcaption {
-  text-align: center;
-  color: #9e9e9e;
-}
