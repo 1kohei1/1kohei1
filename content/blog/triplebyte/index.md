@@ -83,6 +83,8 @@ TripleByteはこの最初のプロセスを肩代わりします。候補者の�
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">TripleByteからのSwag(お祝い品？)みたいなものが届いた！ポータブルチャージャーは持ってないから嬉しい(使うデバイスないけど <a href="https://t.co/JsZ11ZHQ6a">pic.twitter.com/JsZ11ZHQ6a</a></p>&mdash; Kohei@シリコンバレー (@koheiarai94) <a href="https://twitter.com/koheiarai94/status/1097695498213838848?ref_src=twsrc%5Etfw">February 19, 2019</a></blockquote>
 
+<div><twitter-embed></twitter-embed></div>
+
 ## ピッチコール
 
 スクリーニングをパスしたあとはピッチコールという段階に入ります。これは僕のプロフィールやスクリーニングの結果を見て興味をもった会社と30分話すための時間です。
