@@ -14,7 +14,7 @@ description: 2019/04/09にオファーをもらい、Googleで働くことにな
 
 念願だったGoogleからオファーが届き、働けることになりそうです。この記事ではオファーをもらうにいたるまでの経緯と自分のした準備をまとめます。
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">GoogleからのオファーをacceptしたのでGoogleに転職します！<br>ずっと憧れだったので嬉しい:)<br><br>とにかくいいコードをたくさん読んで、いいコードをかけるようになります！</p>&mdash; Kohei@シリコンバレー (@koheiarai94) <a href="https://twitter.com/koheiarai94/status/1115717398508654592?ref_src=twsrc%5Etfw">April 9, 2019</a></blockquote>
+<div class="twitter-tweet"><twitter-embed id="1115717398508654592"></twitter-embed></div>
 
 なお、僕の場合はアメリカ生活が長いので英語は問題になりませんでした。
 
@@ -109,4 +109,4 @@ LeetCodeで対策し、充分に準備できたと思ったのでPhone Interview
 
 「水色以上の方はGoogleに入れる可能性が充分にある」が僕の考えです。
 
-以上になります！質問や相談等は僕の[Twitterアカウント](https://twitter.com/koheiarai94)までおねがいします:)
+以上になります！質問や相談等は僕の[Twitterアカウント](https://twitter.com/koheiarai94)までおねがいします:) 参考までに僕が使っていた履歴書は[こちら](https://drive.google.com/file/d/1JvSQem8KZfPqcop3Etewuezb1c6tHad7/view?usp=sharing)です。履歴書作成サービスの[zety](https://zety.com/)を使いました。

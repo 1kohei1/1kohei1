@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import renderAst from "../util/renderAst"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -28,7 +29,7 @@ class BlogPostTemplate extends React.Component {
         />
         <h1>{post.frontmatter.title}</h1>
         <p className="post-date">{post.frontmatter.date}</p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        {renderAst(post.htmlAst)}
         <hr className="post-separator" />
         <Bio />
 
@@ -65,7 +66,7 @@ export const pageQuery = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
-      html
+      htmlAst
       frontmatter {
         title
         date(formatString: "YYYY/MM/DD")
