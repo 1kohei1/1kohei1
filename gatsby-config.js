@@ -3,7 +3,10 @@ module.exports = {
     title: `新井康平`,
     author: `Kohei Arai`,
     description: `シリコンバレーで働き始めたエンジニアのブログ`,
-    siteUrl: `https://1kohei1.com`,
+    siteUrl:
+      process.env.CONTEXT === `deploy-preview`
+        ? process.env.DEPLOY_URL
+        : `https://1kohei1.com`,
     social: {
       twitter: `koheiarai94`,
     },
