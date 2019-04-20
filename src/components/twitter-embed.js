@@ -15,7 +15,6 @@ export default class TwitterEmbed extends React.Component {
     if (
       this.state.tweetRenderStatus === "NOT_READY" &&
       this.wrapper &&
-      //
       this.wrapper.getBoundingClientRect().top < window.innerHeight * 3
     ) {
       this.setState({ tweetRenderStatus: "READY" })
@@ -44,7 +43,6 @@ export default class TwitterEmbed extends React.Component {
           .createTweet(this.props.id, this.wrapper, {
             cards: "true",
             dnt: "true",
-            lang: "ja",
             align: "center",
             conversation: "none",
           })
