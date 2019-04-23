@@ -1,19 +1,21 @@
 import React from "react"
 
-function Social({ url }) {
+function Social({ url, title, twitter }) {
+  url = encodeURI(url)
+  title = encodeURIComponent(title)
   return (
     <div className="shares">
+      {/* Twitter */}
       <div>
         <a
-          href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-          className="twitter-share-button"
-          data-size="large"
-          data-via="koheiarai94"
-          data-show-count="false"
+          href={`https://twitter.com/intent/tweet?text=${title}&url=${url}&via=${twitter}`}
+          className="my-tweet-button"
         >
-          Tweet
+          <i />
+          <span>Tweet</span>
         </a>
       </div>
+      {/* hatena */}
       <div>
         <a
           href="http://b.hatena.ne.jp/entry/"
@@ -32,6 +34,7 @@ function Social({ url }) {
           />
         </a>
       </div>
+      {/* fb */}
       <div
         className="fb-share-button"
         data-href={url}
@@ -39,10 +42,19 @@ function Social({ url }) {
         data-size="large"
       >
         <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURI(
-            url
-          )};src=sdkpreparse`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}
+          target="_blank"
+          rel="noopener noreferrer"
           className="fb-xfbml-parse-ignore"
+        >
+          Share
+        </a>
+      </div>
+      <div>
+        <a
+          href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Share
         </a>

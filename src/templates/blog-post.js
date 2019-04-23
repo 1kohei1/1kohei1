@@ -11,9 +11,11 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
+    const twitter = this.props.data.site.siteMetadata.social.twitter
     const { previous, next } = this.props.pageContext
 
     const siteUrl = this.props.data.site.siteMetadata.siteUrl
+    const postTitle = `${post.frontmatter.title} | ${siteTitle}`
     const postUrl = `${siteUrl}${this.props.location.pathname}`
 
     let image = undefined
@@ -34,7 +36,7 @@ class BlogPostTemplate extends React.Component {
         <p className="post-date">{post.frontmatter.date}</p>
         {renderAst(post.htmlAst)}
         <h3>シェアボタン</h3>
-        <Social url={postUrl} />
+        <Social url={postUrl} title={postTitle} twitter={twitter} />
         <hr className="post-separator" />
         <Bio />
 
@@ -66,6 +68,9 @@ export const pageQuery = graphql`
         title
         author
         siteUrl
+        social {
+          twitter
+        }
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
