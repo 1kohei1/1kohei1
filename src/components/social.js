@@ -1,6 +1,6 @@
 import React from "react"
 
-function Social() {
+function Social({ url }) {
   return (
     <div className="shares">
       <div>
@@ -34,7 +34,7 @@ function Social() {
       </div>
       <div
         className="fb-share-button"
-        data-href={window.location.href}
+        data-href={url}
         data-layout="button"
         data-size="large"
       >
