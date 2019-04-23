@@ -102,7 +102,31 @@ function SEO({ description, lang, meta, keywords, title, isRoot, image }) {
             : []
         )
         .concat(meta)}
-    />
+    >
+      {!isRoot && (
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charSet="utf-8"
+        />
+      )}
+      {!isRoot && (
+        <script
+          async
+          type="text/javascript"
+          src="https://b.st-hatena.com/js/bookmark_button.js"
+          charSet="utf-8"
+        />
+      )}
+      {!isRoot && (
+        <script
+          async
+          defer
+          crossorigin="anonymous"
+          src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"
+        />
+      )}
+    </Helmet>
   )
 }
 

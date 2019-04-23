@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Social from "../components/social"
 import renderAst from "../util/renderAst"
 
 class BlogPostTemplate extends React.Component {
@@ -30,6 +31,8 @@ class BlogPostTemplate extends React.Component {
         <h1>{post.frontmatter.title}</h1>
         <p className="post-date">{post.frontmatter.date}</p>
         {renderAst(post.htmlAst)}
+        <h3>シェアボタン</h3>
+        <Social />
         <hr className="post-separator" />
         <Bio />
 

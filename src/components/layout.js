@@ -43,6 +43,7 @@ class Layout extends React.Component {
     }
     return (
       <div className="container">
+        <div id="fb-root" />
         <header>{header}</header>
         <main>{children}</main>
         <footer />

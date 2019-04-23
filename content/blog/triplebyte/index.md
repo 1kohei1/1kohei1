@@ -82,7 +82,7 @@ TripleByteはこの最初のプロセスを肩代わりします。候補者の�
 
 これらのスクリーニングをパスすると、職歴やどこで働きたいかの希望を提出します。TripleByteからお祝いの品も届きます。
 
-<div class="twitter-tweet"><twitter-embed id="1097695498213838848"></twitter-embed></div>
+<div><twitter-embed id="1097695498213838848"></twitter-embed></div>
 
 ## ピッチコール
 
