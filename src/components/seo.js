@@ -106,13 +106,6 @@ function SEO({ description, lang, meta, keywords, title, isRoot, image }) {
       {!isRoot && (
         <script
           async
-          src="https://platform.twitter.com/widgets.js"
-          charSet="utf-8"
-        />
-      )}
-      {!isRoot && (
-        <script
-          async
           type="text/javascript"
           src="https://b.st-hatena.com/js/bookmark_button.js"
           charSet="utf-8"

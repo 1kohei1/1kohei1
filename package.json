@@ -15,6 +15,7 @@
     "gatsby-plugin-netlify": "^2.0.13",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sharp": "^2.0.32",
+    "gatsby-plugin-twitter": "^2.0.13",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-remark-copy-linked-files": "^2.0.11",
     "gatsby-remark-images": "^2.0.6",
