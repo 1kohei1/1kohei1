@@ -4,17 +4,22 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Social from "../components/social"
 import renderAst from "../util/renderAst"
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
+    const twitter = this.props.data.site.siteMetadata.social.twitter
     const { previous, next } = this.props.pageContext
+
+    const siteUrl = this.props.data.site.siteMetadata.siteUrl
+    const postTitle = `${post.frontmatter.title} | ${siteTitle}`
+    const postUrl = `${siteUrl}${this.props.location.pathname}`
 
     let image = undefined
     if (post.frontmatter.image) {
-      const siteUrl = this.props.data.site.siteMetadata.siteUrl
       const imageUrl = post.frontmatter.image.childImageSharp.fixed.src
       image = `${siteUrl}${imageUrl}`
     }
@@ -30,6 +35,8 @@ class BlogPostTemplate extends React.Component {
         <h1>{post.frontmatter.title}</h1>
         <p className="post-date">{post.frontmatter.date}</p>
         {renderAst(post.htmlAst)}
+        <h3>シェアボタン</h3>
+        <Social url={postUrl} />
         <hr className="post-separator" />
         <Bio />
 
@@ -61,6 +68,9 @@ export const pageQuery = graphql`
         title
         author
         siteUrl
+        social {
+          twitter
+        }
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {

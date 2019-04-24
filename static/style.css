@@ -684,3 +684,10 @@ figure.gatsby-resp-image-figure figcaption {
   text-align: center;
   color: #9e9e9e;
 }
+.shares {
+  display: flex;
+  flex-direction: row;
+}
+.shares div {
+  margin-right: 0.5em;
+}

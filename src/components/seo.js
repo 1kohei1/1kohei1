@@ -102,7 +102,16 @@ function SEO({ description, lang, meta, keywords, title, isRoot, image }) {
             : []
         )
         .concat(meta)}
-    />
+    >
+      {!isRoot && (
+        <script
+          async
+          type="text/javascript"
+          src="https://b.st-hatena.com/js/bookmark_button.js"
+          charSet="utf-8"
+        />
+      )}
+    </Helmet>
   )
 }
 
