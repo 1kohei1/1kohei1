@@ -36,7 +36,7 @@ class BlogPostTemplate extends React.Component {
         <p className="post-date">{post.frontmatter.date}</p>
         {renderAst(post.htmlAst)}
         <h3>シェアボタン</h3>
-        <Social url={postUrl} title={postTitle} twitter={twitter} />
+        <Social url={postUrl} />
         <hr className="post-separator" />
         <Bio />
 
