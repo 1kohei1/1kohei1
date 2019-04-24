@@ -11,7 +11,7 @@ keywords:
   - OPT 就職
   - OPT extension 就職
   - TripleByte 使ってみた
-description: エンジニア就職支援サービス・TripleByteのコンセプトに共感したので紹介させてください。
+description: エンジニア就職支援サービス・TripleByteのコンセプトに共感したので紹介します。
 date: 2019-04-18
 image: ./average-salary.png
 ---
@@ -82,7 +82,7 @@ TripleByteはこの最初のプロセスを肩代わりします。候補者の�
 
 これらのスクリーニングをパスすると、職歴やどこで働きたいかの希望を提出します。TripleByteからお祝いの品も届きます。
 
-<div class="twitter-tweet"><twitter-embed id="1097695498213838848"></twitter-embed></div>
+<div><twitter-embed id="1097695498213838848"></twitter-embed></div>
 
 ## ピッチコール
 
