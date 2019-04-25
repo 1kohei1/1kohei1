@@ -648,6 +648,8 @@ twitter-widget {
 }
 .bio .profile-image {
   order: 1;
+  margin-right: 0.875rem;
+  flex-shrink: 0;
 }
 .bio .desc {
   order: 2;
@@ -728,6 +730,6 @@ figure.gatsby-resp-image-figure figcaption {
   }
   .bio .profile-image {
     order: 2;
-    margin: auto !important;
+    margin: auto;
   }
 }

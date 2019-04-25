@@ -21,7 +21,6 @@ function Bio() {
               className="profile-image"
               fixed={data.avatar.childImageSharp.fixed}
               alt={author}
-              style={{ marginRight: ".875rem", flexShrink: 0 }}
               imgStyle={{
                 borderRadius: "50%",
               }}
