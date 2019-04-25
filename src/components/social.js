@@ -1,8 +1,7 @@
 import React from "react"
 
-function Social({ url, title, twitter }) {
+function Social({ url }) {
   url = encodeURI(url)
-  title = encodeURIComponent(title)
   return (
     <div className="shares">
       {/* Twitter */}
@@ -39,13 +38,14 @@ function Social({ url, title, twitter }) {
       {/* fb */}
       <div>
         <iframe
+          title="fb-share"
           src={`https://www.facebook.com/plugins/share_button.php?href=${url}&layout=button&size=large&width=73&height=28&appId`}
           width="73"
           height="28"
           style={{ border: "none", overflow: "hidden" }}
           scrolling="no"
-          frameborder="0"
-          allowTransparency="true"
+          frameBorder="0"
+          allowtransparency="true"
           allow="encrypted-media"
         />
       </div>

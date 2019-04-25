@@ -42,7 +42,7 @@ class Layout extends React.Component {
       )
     }
     return (
-      <div className="container">
+      <div className={`container ${isRoot && "root"}`}>
         <header>{header}</header>
         <main>{children}</main>
         <footer />

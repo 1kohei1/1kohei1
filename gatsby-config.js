@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `新井康平`,
     author: `Kohei Arai`,
-    description: `シリコンバレーで働き始めたエンジニアのブログ`,
+    description: `シリコンバレーで働くエンジニアのブログ`,
     siteUrl:
       process.env.CONTEXT === `deploy-preview`
         ? process.env.DEPLOY_URL
@@ -55,7 +55,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-30602294-5`,
+        trackingId: process.env.CONTEXT === `production` ? `UA-30602294-5` : ``,
       },
     },
     `gatsby-plugin-twitter`,
