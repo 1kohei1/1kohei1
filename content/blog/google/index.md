@@ -109,4 +109,7 @@ LeetCodeで対策し、充分に準備できたと思ったのでPhone Interview
 
 「水色以上の方はGoogleに入れる可能性が充分にある」が僕の考えです。
 
-以上になります！質問や相談等は僕の[Twitterアカウント](https://twitter.com/koheiarai94)までおねがいします:) 参考までに僕が使っていた履歴書は[こちら](https://drive.google.com/file/d/1JvSQem8KZfPqcop3Etewuezb1c6tHad7/view?usp=sharing)です。履歴書作成サービスの[zety](https://zety.com/)を使いました。
+以上になります！質問や相談等は僕の[Twitterアカウント](https://twitter.com/koheiarai94)までおねがいします:) 参考までに僕の履歴書や就活記事を置いときます。履歴書は[zety](https://zety.com/)を使いました。
+
+* [履歴書](https://drive.google.com/file/d/1JvSQem8KZfPqcop3Etewuezb1c6tHad7/view?usp=sharing)
+* [シリコンバレーで仕事を得るまでの経緯](/silicon-valley)
