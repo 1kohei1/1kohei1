@@ -587,9 +587,9 @@ td:last-child {
 a {
   color: #950451;
   text-decoration: none;
-  text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff,
+  /* text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff,
     0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0 #fff,
-    -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff;
+    -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff; */
   background-image: none;
 }
 a:hover,
@@ -695,8 +695,12 @@ figure.gatsby-resp-image-figure figcaption {
   padding: 0.5rem 0.8rem;
   border-radius: 4px;
 }
-.go-to-top a:hover {
+.go-to-top a:hover,
+.go-to-top a:focus,
+.go-to-top a:active {
   background-image: none;
+  background-color: #950451;
+  color: white;
 }
 /* Media */
 @media only screen and (max-width: 480px) {
