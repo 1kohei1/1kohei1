@@ -11,11 +11,8 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
-    const twitter = this.props.data.site.siteMetadata.social.twitter
-    const { previous, next } = this.props.pageContext
 
     const siteUrl = this.props.data.site.siteMetadata.siteUrl
-    const postTitle = `${post.frontmatter.title} | ${siteTitle}`
     const postUrl = `${siteUrl}${this.props.location.pathname}`
 
     let image = undefined
@@ -39,21 +36,9 @@ class BlogPostTemplate extends React.Component {
         <Social url={postUrl} />
         <hr className="post-separator" />
         <Bio />
-
-        {previous && (
-          <p style={{ textAlign: "left" }}>
-            <Link to={previous.fields.slug} rel="prev">
-              ← {previous.frontmatter.title}
-            </Link>
-          </p>
-        )}
-        {next && (
-          <p style={{ textAlign: "right" }}>
-            <Link to={next.fields.slug} rel="next">
-              {next.frontmatter.title} →
-            </Link>
-          </p>
-        )}
+        <div className="go-to-top">
+          <Link to="/">← TOPへ戻る</Link>
+        </div>
       </Layout>
     )
   }
