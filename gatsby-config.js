@@ -2,9 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `新井康平`,
     author: `Kohei Arai`,
-    description: `シリコンバレーで働くエンジニア。
-    17で渡米。アメリカの大学でコンピュータサイエンス学士を取得。
-    Twitterは@koheiarai94`,
+    description: `シリコンバレーで働くエンジニアのブログ`,
     siteUrl:
       process.env.CONTEXT === `deploy-preview`
         ? process.env.DEPLOY_URL
