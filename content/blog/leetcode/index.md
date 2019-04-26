@@ -1,6 +1,6 @@
 ---
 title: コーディング面接対策のために解きたいLeetCode 60問
-description: コーディング面接対策にLeetCodeを使うのが一般的です。コンセプトごとに解いてよかった問題をまとめました。
+description: コーディング面接の準備にLeetCodeを使うのが一般的です。コンセプトごとに解いてよかった問題をまとめました。
 keywords:
   - コーディング試験 対策
   - コーディングインタビュー 対策
@@ -10,10 +10,10 @@ keywords:
   - LeetCode おすすめ問題
   - LeetCode コーディング面接
 date: 2019-04-25
-image: 
+image: ./top.png
 ---
 
-自分がコーディング面接対策のために解いてよかったと思うLeetCodeの問題をコンセプトごとにまとめました。カバーするコンセプトは
+自分がコーディング面接対策のために解いてよかったLeetCodeの問題をコンセプトごとにまとめました。カバーするコンセプトは
 
 * LinkedList
 * Stack
@@ -27,9 +27,10 @@ image:
 * Recursion
 * Sliding window
 * Greedy + Backtracking
-* その他
 
-です。 これらの問題が30分以内に実装できれば面接の準備は整ったと言っていいと思います。EasyとMediumで問題は構成されてます。進捗を管理するためにGoogle Spreadsheetを用意しました。...して...すれば自分のアカウントのGoogle Driveに追加されます。ご自由にお使いください。
+です。 これらの問題が30分以内に実装できれば面接の準備は整ったと言っていいと思います。EasyとMediumで問題は構成されてます。進捗を管理するためにGoogle Spreadsheetを[用意しました](https://docs.google.com/spreadsheets/d/1Y98QKaYPazWImEt1nA_ocpGNJ-yQjH1FAsVQhUQ7OTw/edit?usp=sharing)。コピペしてご自由にお使いください。
+
+これらの問題は、LeetCodeのリスト機能でも[公開されています](https://leetcode.com/list/xo2bgr0r)。クローンすれば自分がすでにどの問題を解いているかがわかります。
 
 ## LinkedList
 
@@ -134,4 +135,12 @@ image:
 * [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)
 
 ## まとめ
+
+いかがだったでしょうか？これらの問題がすばやく解けるようになったら、@yangshunによる[Algorithm Questions](https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms)もやってみるといいです。この記事と同じように、コンセプトごとにLeetCodeの問題やコーナーケースがまとめられています。
+
+Algorithm Questionもやりつくしてしまったら、友人が書いてる[Algorithms and Coding Interviews](https://github.com/liyin2015/Algorithms-and-Coding-Interviews/blob/master/Preparing_for_the_real-world_software_engineering.pdf)をおすすめします。分野ごとに説明/コードが記載されており、この記事もこの本を参考にしています。
+
+LeetCodeで準備をしたらあとは企業の面接に臨むだけです。 現在アメリカの大学/大学院で勉強していて卒業後ソフトウェアエンジニアとして就職したい方には、エンジニア特化の就職支援サービスTripleByteをおすすめしています。紹介記事もぜひお読みください。
+
+* [米大学/大学院を卒業後エンジニアで働きたいならTripleByteを使ってみよう](/triplebyte)
 
