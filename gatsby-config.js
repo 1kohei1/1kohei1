@@ -7,6 +7,10 @@ module.exports = {
       process.env.CONTEXT === `deploy-preview`
         ? process.env.DEPLOY_URL
         : `https://1kohei1.com`,
+    rssUrl:
+      process.env.CONTEXT === `deploy-preview`
+        ? `${process.env.DEPLOY_URL}/rss.xml`
+        : `https://1kohei1.com/rss.xml`,
     social: {
       twitter: `koheiarai94`,
     },
@@ -69,7 +73,9 @@ module.exports = {
                 title
                 description
                 siteUrl
+                rssUrl
                 site_url: siteUrl
+                feed_url: rssUrl
               }
             }
           }
@@ -80,7 +86,7 @@ module.exports = {
               return allMarkdownRemark.edges.map(edge => {
                 return {
                   title: edge.node.frontmatter.title,
-                  description: edge.node.frontmatter.excerpt,
+                  description: edge.node.excerpt,
                   date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                 }
@@ -97,7 +103,6 @@ module.exports = {
                     frontmatter {
                       title
                       date
-                      description
                     }
                   }
                 }
