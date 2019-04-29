@@ -7,6 +7,10 @@ module.exports = {
       process.env.CONTEXT === `deploy-preview`
         ? process.env.DEPLOY_URL
         : `https://1kohei1.com`,
+    rssUrl:
+      process.env.CONTEXT === `deploy-preview`
+        ? `${process.env.DEPLOY_URL}/rss.xml`
+        : `https://1kohei1.com/rss.xml`,
     social: {
       twitter: `koheiarai94`,
     },
@@ -59,7 +63,57 @@ module.exports = {
       },
     },
     `gatsby-plugin-twitter`,
-    `gatsby-plugin-feed`,
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                rssUrl
+                site_url: siteUrl
+                feed_url: rssUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
+                return {
+                  title: edge.node.frontmatter.title,
+                  description: edge.node.excerpt,
+                  date: edge.node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                }
+              })
+            },
+            query: `{
+              allMarkdownRemark(
+                sort: { order: DESC, fields: [frontmatter___date]},
+              ) {
+                edges {
+                  node {
+                    fields { slug }
+                    excerpt
+                    frontmatter {
+                      title
+                      date
+                    }
+                  }
+                }
+              }
+            }`,
+            output: `/rss.xml`,
+            title: `新井康平`,
+          },
+        ],
+      },
+    },
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify`,
