@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+Sitemap: https://1kohei1.com/sitemap.xml
