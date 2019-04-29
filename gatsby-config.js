@@ -59,7 +59,56 @@ module.exports = {
       },
     },
     `gatsby-plugin-twitter`,
-    `gatsby-plugin-feed`,
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
+                return {
+                  title: edge.node.frontmatter.title,
+                  description: edge.node.excerpt,
+                  date: edge.node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                }
+              })
+            },
+            query: `{
+              allMarkdownRemark(
+                sort: { order: DESC, fields: [frontmatter___date]},
+              ) {
+                edges {
+                  node {
+                    fields { slug }
+                    excerpt
+                    frontmatter {
+                      title
+                      date
+                      description
+                    }
+                  }
+                }
+              }
+            }`,
+            output: `/rss.xml`,
+            title: `新井康平`,
+          },
+        ],
+      },
+    },
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify`,
