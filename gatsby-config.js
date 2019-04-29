@@ -83,7 +83,6 @@ module.exports = {
                   description: edge.node.frontmatter.excerpt,
                   date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  custom_elements: [{ "content:encoded": edge.node.html }],
                 }
               })
             },
@@ -94,7 +93,6 @@ module.exports = {
                 edges {
                   node {
                     fields { slug }
-                    html
                     excerpt
                     frontmatter {
                       title
