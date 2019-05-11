@@ -6,7 +6,7 @@ keywords:
   - 継続
   - 2000日
   - 毎日日記
-image: ./golden-gate-bridge.jpeg
+image: ./golden-gate-bridge.jpg
 description: 毎日書いてた日記が2000日に達したので、今感じてることをまとめます。
 ---
 
