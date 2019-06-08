@@ -28,9 +28,9 @@ image: ./top.png
 * Sliding window
 * Greedy + Backtracking
 
-です。 これらの問題が30分以内に実装できれば面接の準備は整ったと言っていいと思います。EasyとMediumで問題は構成されてます。進捗を管理するためにGoogle Spreadsheetを[用意しました](https://docs.google.com/spreadsheets/d/1Y98QKaYPazWImEt1nA_ocpGNJ-yQjH1FAsVQhUQ7OTw/edit?usp=sharing)。コピペしてご自由にお使いください。
+です。 これらの問題が30分以内に実装できれば面接の準備は整ったと言っていいと思います。EasyとMediumで問題は構成されてます。進捗を管理するために[Google Spreadsheet](https://docs.google.com/spreadsheets/d/1Y98QKaYPazWImEt1nA_ocpGNJ-yQjH1FAsVQhUQ7OTw/edit?usp=sharing)を用意しました。コピペしてご自由にお使いください。
 
-これらの問題は、LeetCodeのリスト機能でも[公開されています](https://leetcode.com/list/xo2bgr0r)。クローンすれば自分がすでにどの問題を解いているかがわかります。
+これらの問題は、[LeetCodeのリスト機能](https://leetcode.com/list/xo2bgr0r)でも公開されています。クローンすれば自分がすでにどの問題を解いているかがわかります。
 
 ## LinkedList
 
