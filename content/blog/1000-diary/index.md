@@ -5,7 +5,6 @@ keywords:
   - 日記
   - 継続
   - 1000日
-image: ./1000days.jpeg
 description: 毎日書いてた日記が1000日に達したので、わかったことをまとめます。
 ---
 
