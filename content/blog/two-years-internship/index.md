@@ -27,6 +27,7 @@ description: アメリカで2年間インターンして経験したことや、
 
 印象に残ってることを順不同であげていきます。
 
+
 ## カルチャー編
 
 #### I'm gonna work from home today.
