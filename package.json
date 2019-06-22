@@ -7,7 +7,7 @@
     "url": "https://github.com/1kohei1/1kohei1/issues"
   },
   "dependencies": {
-    "gatsby": "^2.3.16",
+    "gatsby": "^2.10.0",
     "gatsby-image": "^2.0.37",
     "gatsby-plugin-catch-links": "^2.0.13",
     "gatsby-plugin-feed": "^2.1.0",
