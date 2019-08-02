@@ -107,7 +107,7 @@ LeetCodeで対策し、充分に準備できたと思ったのでPhone Interview
 
 間違いなくGoogleなどのコーディング面接に有効だと断言します。ただし、このようにコードを書かせる面接を行う会社は多くないと感じているのでご自身が入りたい会社にあわせた対策をしてください。僕のatcoderレーティング最高値は1242で[水色コーダー](https://atcoder.jp/users/kohei94)です。
 
-![Atcoder rating](./atcoder-rating.png)
+![Atcoder rating](./atcoder-rating2.png)
 
 「水色以上の方はGoogleに入れる可能性が充分にある」が僕の考えです。
 
