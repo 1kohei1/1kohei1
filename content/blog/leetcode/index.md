@@ -32,9 +32,11 @@ image: ./top.png
 
 これらの問題は、[LeetCodeのリスト機能](https://leetcode.com/list/xo2bgr0r)でも公開されています。クローンすれば自分がすでにどの問題を解いているかがわかります。
 
+実験として解説動画をYouTubeにあげてみました。(▶)をクリックすると該当の動画に飛びます。コメントで需要があるかを教えていただけると嬉しいです。
+
 ## LinkedList
 
-* [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+* [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) [(▶)](https://youtu.be/RL6n1k7-n3M)
 * [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
 * [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 * [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
