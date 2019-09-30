@@ -140,7 +140,7 @@ image: ./top.png
 
 いかがだったでしょうか？これらの問題がすばやく解けるようになったら、@yangshunによる[Algorithm Questions](https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms)もやってみるといいです。この記事と同じように、コンセプトごとにLeetCodeの問題やコーナーケースがまとめられています。
 
-Algorithm Questionもやりつくしてしまったら、友人が書いてる[Algorithms and Coding Interviews](https://github.com/liyin2015/Algorithms-and-Coding-Interviews/blob/master/Preparing_for_the_real-world_software_engineering.pdf)をおすすめします。分野ごとに説明/コードが記載されており、この記事もこの本を参考にしています。
+Algorithm Questionもやりつくしてしまったら、友人が書いてる[Algorithms and Coding Interviews](https://github.com/liyin2015/Algorithms-and-Coding-Interviews/)をおすすめします。分野ごとに説明/コードが記載されており、この記事もこの本を参考にしています。
 
 競技プログラミングなどをやったことない人にとって、これらの問題は馴染みがないかもしれません。ですが、準備をすればコーディング面接は確実に突破できます。筆者は200問ほど解き、Googleからオファーをもらいました。
 
