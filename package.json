@@ -7,7 +7,7 @@
     "url": "https://github.com/1kohei1/1kohei1/issues"
   },
   "dependencies": {
-    "gatsby": "^2.15.20",
+    "gatsby": "^2.18.17",
     "gatsby-image": "^2.2.20",
     "gatsby-plugin-catch-links": "^2.1.10",
     "gatsby-plugin-feed": "^2.3.13",
@@ -30,8 +30,8 @@
     "lazysizes": "^4.1.8",
     "lodash.debounce": "^4.0.8",
     "prismjs": "^1.17.1",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "rehype-react": "^3.1.0",
     "typeface-roboto": "0.0.54",
