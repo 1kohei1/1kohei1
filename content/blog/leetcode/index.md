@@ -38,7 +38,7 @@ image: ./top.png
 
 * [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) [(▶)](https://youtu.be/RL6n1k7-n3M)
 * [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) [(▶)](https://youtu.be/WhsAKDiLJrI)
-* [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) [解説スライド](https://speakerdeck.com/1kohei1/leetcode-83-remove-duplicates-from-sorted-list)
+* [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) ([解説スライド](https://speakerdeck.com/1kohei1/leetcode-83-remove-duplicates-from-sorted-list))
 * [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
 * [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 
