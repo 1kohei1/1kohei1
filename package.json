@@ -27,7 +27,7 @@
     "gatsby-source-filesystem": "^2.1.26",
     "gatsby-transformer-remark": "^2.6.24",
     "gatsby-transformer-sharp": "^2.2.16",
-    "lazysizes": "^4.1.8",
+    "lazysizes": "^5.2.1",
     "lodash.debounce": "^4.0.8",
     "prismjs": "^1.17.1",
     "react": "^16.12.0",
