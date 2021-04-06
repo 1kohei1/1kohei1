@@ -13,139 +13,139 @@ date: 2019-04-25
 image: ./top.png
 ---
 
-自分がコーディング面接対策のために解いてよかったLeetCodeの問題をコンセプトごとにまとめました。カバーするコンセプトは
+自分がコーディング面接対策のために解いてよかった LeetCode の問題をコンセプトごとにまとめました。カバーするコンセプトは
 
-* LinkedList
-* Stack
-* Heap, PriorityQueue
-* HashMap
-* Graph, BFS, DFS
-* Tree, BT, BST
-* Sort
-* Dynamic Programming
-* Binary search
-* Recursion
-* Sliding window
-* Greedy + Backtracking
+- LinkedList
+- Stack
+- Heap, PriorityQueue
+- HashMap
+- Graph, BFS, DFS
+- Tree, BT, BST
+- Sort
+- Dynamic Programming
+- Binary search
+- Recursion
+- Sliding window
+- Greedy + Backtracking
 
-です。 これらの問題が30分以内に実装できれば面接の準備は整ったと言っていいと思います。EasyとMediumで問題は構成されてます。進捗を管理するために[Google Spreadsheet](https://docs.google.com/spreadsheets/d/1Y98QKaYPazWImEt1nA_ocpGNJ-yQjH1FAsVQhUQ7OTw/edit?usp=sharing)を用意しました。コピペしてご自由にお使いください。
+です。 これらの問題が 30 分以内に実装できれば面接の準備は整ったと言っていいと思います。Easy と Medium で問題は構成されてます。進捗を管理するために[Google Spreadsheet](https://docs.google.com/spreadsheets/d/1Y98QKaYPazWImEt1nA_ocpGNJ-yQjH1FAsVQhUQ7OTw/edit?usp=sharing)を用意しました。コピペしてご自由にお使いください。
 
-これらの問題は、[LeetCodeのリスト機能](https://leetcode.com/list/xo2bgr0r)でも公開されています。クローンすれば自分がすでにどの問題を解いているかがわかります。
+これらの問題は、[LeetCode のリスト機能](https://leetcode.com/list/xo2bgr0r)でも公開されています。クローンすれば自分がすでにどの問題を解いているかがわかります。
 
-実験として解説動画をYouTubeにあげてみました。(▶)をクリックすると該当の動画に飛びます。解説してほしい問題やわからないところをコメントで教えていただけると嬉しいです。
+解説動画を YouTube にあげていってます。(▶)をクリックすると該当の動画に飛びます。解説してほしい問題やわからないところをコメントで教えていただけると嬉しいです。
 
 ## LinkedList
 
-* [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) [(▶)](https://youtu.be/kOhQ5bfpq2I)
-* [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) [(▶)](https://youtu.be/Oz7-VlcTpSQ)
-* [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) ([解説スライド](https://speakerdeck.com/1kohei1/leetcode-83-remove-duplicates-from-sorted-list))
-* [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
-* [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+- [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) [(▶)](https://youtu.be/kOhQ5bfpq2I)
+- [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) [(▶)](https://youtu.be/Oz7-VlcTpSQ)
+- [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) ([(▶)](https://youtu.be/foMqZAL00UU))
+- [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
+- [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 
 ## Stack
 
-* [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-* [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+- [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 
 ## Heap, PriorityQueue
 
-* [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
-* [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
-* [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)
+- [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
+- [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+- [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)
 
 ## HashMap
 
-* [Two Sum](https://leetcode.com/problems/two-sum/)
-* [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
-* [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
-* [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)
-* [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)
-* [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+- [Two Sum](https://leetcode.com/problems/two-sum/)
+- [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+- [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
+- [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)
+- [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)
+- [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 
 ## Graph, BFS, DFS
 
-* [Number of Islands](https://leetcode.com/problems/number-of-islands/)
-* [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
-* [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
-* [Word Ladder](https://leetcode.com/problems/word-ladder/)
+- [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
+- [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+- [Word Ladder](https://leetcode.com/problems/word-ladder/)
 
 ## Tree, BT, BST
 
-* [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
-* [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
-* [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
-* [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
-* [Path Sum](https://leetcode.com/problems/path-sum/)
-* [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-* [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
-* [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
-* [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+- [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+- [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+- [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
+- [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+- [Path Sum](https://leetcode.com/problems/path-sum/)
+- [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+- [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+- [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+- [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
 ## Sort
 
-[Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)が参考になります。挿入ソートや基数ソートがどういうデータセットのときに、NLogNのソートと比べて優れているかを確認しましょう。それぞれのアルゴリズムの特徴を把握するとよいです。
+[Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)が参考になります。挿入ソートや基数ソートがどういうデータセットのときに、NLogN のソートと比べて優れているかを確認しましょう。それぞれのアルゴリズムの特徴を把握するとよいです。
 
 ## Dynamic Programming
 
-* [Paint Fence](https://leetcode.com/problems/paint-fence/)
-* [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
-* [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
-* [Unique Paths](https://leetcode.com/problems/unique-paths/)
-* [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
-* [House Robber](https://leetcode.com/problems/house-robber/)
-* [House Robber II](https://leetcode.com/problems/house-robber-ii/)
-* [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-* [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
-* [Word Break](https://leetcode.com/problems/word-break/)
-* [Coin Change](https://leetcode.com/problems/coin-change/)
+- [Paint Fence](https://leetcode.com/problems/paint-fence/)
+- [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+- [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+- [Unique Paths](https://leetcode.com/problems/unique-paths/)
+- [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
+- [House Robber](https://leetcode.com/problems/house-robber/)
+- [House Robber II](https://leetcode.com/problems/house-robber-ii/)
+- [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+- [Word Break](https://leetcode.com/problems/word-break/)
+- [Coin Change](https://leetcode.com/problems/coin-change/)
 
 ## Binary Search
 
-* [Search Insert Position](https://leetcode.com/problems/search-insert-position/)
-* [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
-* [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-* [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
+- [Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+- [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+- [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 
 ## Recursion
 
-* [Pow(x, n)](https://leetcode.com/problems/powx-n/)
-* [K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/)
-* [Split BST](https://leetcode.com/problems/split-bst/)
+- [Pow(x, n)](https://leetcode.com/problems/powx-n/)
+- [K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/)
+- [Split BST](https://leetcode.com/problems/split-bst/)
 
 ## Sliding Window
 
-* [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-* [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
+- [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 
 ## Greedy + Backtracking
 
-* [Permutations](https://leetcode.com/problems/permutations/)
-* [Subsets](https://leetcode.com/problems/subsets/)
-* [Combination Sum](https://leetcode.com/problems/combination-sum/)
-* [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+- [Permutations](https://leetcode.com/problems/permutations/)
+- [Subsets](https://leetcode.com/problems/subsets/)
+- [Combination Sum](https://leetcode.com/problems/combination-sum/)
+- [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 
 ## その他
 
 これらの問題は総合的に考えて実装する問題です。
 
-* [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
-* [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
-* [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
-* [Is Subsequence](https://leetcode.com/problems/is-subsequence/)
-* [Next Permutation](https://leetcode.com/problems/next-permutation/)
-* [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
-* [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)
+- [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+- [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
+- [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
+- [Is Subsequence](https://leetcode.com/problems/is-subsequence/)
+- [Next Permutation](https://leetcode.com/problems/next-permutation/)
+- [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
+- [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)
 
 ## まとめ
 
-いかがだったでしょうか？これらの問題がすばやく解けるようになったら、@yangshunによる[Algorithm Questions](https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms)もやってみるといいです。この記事と同じように、コンセプトごとにLeetCodeの問題やコーナーケースがまとめられています。
+いかがだったでしょうか？これらの問題がすばやく解けるようになったら、@yangshun による[Algorithm Questions](https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms)もやってみるといいです。この記事と同じように、コンセプトごとに LeetCode の問題やコーナーケースがまとめられています。
 
-Algorithm Questionもやりつくしてしまったら、友人が書いてる[Algorithms and Coding Interviews](https://github.com/liyin2015/Algorithms-and-Coding-Interviews/)をおすすめします。分野ごとに説明/コードが記載されており、この記事もこの本を参考にしています。
+Algorithm Question もやりつくしてしまったら、友人が書いてる[Algorithms and Coding Interviews](https://github.com/liyin2015/Algorithms-and-Coding-Interviews/)をおすすめします。分野ごとに説明/コードが記載されており、この記事もこの本を参考にしています。
 
-競技プログラミングなどをやったことない人にとって、これらの問題は馴染みがないかもしれません。ですが、準備をすればコーディング面接は確実に突破できます。筆者は200問ほど解き、Googleからオファーをもらいました。
+競技プログラミングなどをやったことない人にとって、これらの問題は馴染みがないかもしれません。ですが、準備をすればコーディング面接は確実に突破できます。筆者は 200 問ほど解き、Google からオファーをもらいました。
 
-* [Googleからオファーをもらうまで](/google)
+- [Google からオファーをもらうまで](/google)
 
-実際の面接対策には[Pramp](https://www.pramp.com/#/)がおすすめです。これは、コーディング面接の準備をしている人同士をマッチングさせるプラットフォームです。英語でしか使えないことに注意してください。オンサイト面接の経験を積みたければ、TripleByteをおすすめしています。アメリカでOPTが2年間できるという制約がありますが、オンサイト面接に慣れます。
+実際の面接対策には[Pramp](https://www.pramp.com/#/)がおすすめです。これは、コーディング面接の準備をしている人同士をマッチングさせるプラットフォームです。英語でしか使えないことに注意してください。オンサイト面接の経験を積みたければ、TripleByte をおすすめしています。アメリカで OPT が 2 年間できるという制約がありますが、オンサイト面接に慣れます。
 
-* [米大学/大学院を卒業後エンジニアで働きたいならTripleByteを使ってみよう](/triplebyte)
+- [米大学/大学院を卒業後エンジニアで働きたいなら TripleByte を使ってみよう](/triplebyte)
