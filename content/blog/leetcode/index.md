@@ -38,9 +38,9 @@ image: ./top.png
 
 - [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) [(▶)](https://youtu.be/kOhQ5bfpq2I)
 - [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) [(▶)](https://youtu.be/Oz7-VlcTpSQ)
-- [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) ([(▶)](https://youtu.be/foMqZAL00UU))
-- [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
-- [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) ([(▶)](https://youtu.be/Y2gxc-p-KsI))
+- [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) [(▶)](https://youtu.be/foMqZAL00UU)
+- [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) [(▶)](https://youtu.be/Y2gxc-p-KsI)
+- [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 
 ## Stack
 
