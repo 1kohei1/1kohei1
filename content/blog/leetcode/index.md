@@ -44,7 +44,7 @@ image: ./top.png
 
 ## Stack
 
-- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) [(▶)](https://youtu.be/-5MoizGAkVY)
 - [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 
 ## Heap, PriorityQueue
