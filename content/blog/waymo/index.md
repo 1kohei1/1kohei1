@@ -1,22 +1,23 @@
 ---
 title: Waymoに入社してから1年半が経ったから振り返る
-descriptipn: Waymoでの仕事や起きたこと振り返り記事です
+description: Waymoでの仕事や起きたことを振り返る記事です
 keywords:
   - Waymo
   - ウェィモ
   - 自動運転
   - Level 4
+  - レベル4
   - ロボタクシー
   - 無人運転
-date: 2026-12-26
-image: ./top.png
+date: 2024-12-26
+image: ./eye-catch.png
 ---
 
 2023年の6月にSoftware Engineerとして入社し、一年半が経った。簡単にいうと、会社も成長していて、プロダクトもいろんな人が使ってくれて(よくXで"waymo lang:ja"でエゴサしたり、RedditのSelfDrivingCarのsub redditを読んでる)、とても充実している。
 
 ## Waymoとは
 
-アメリカでLevel 4の自動運転を開発している。国土交通省の[資料](https://www.mlit.go.jp/common/001226541.pdf)によるとレベル4は「特定条件下においてシステムがすべての運転タスクを実施」と定義されている。乗客は運転ができなくてもよい。Waymoはロボタクシーをアリゾナ州フェニックス、カリフォルニア州サンフランシスコ、ロスアンゼルス、テキサス州オースティンの4つの都市で提供している。最近では日本交通とGoアプリと提携して東京でテストを始める[発表](https://waymo.com/blog/2024/12/partnering-with-nihon-kotsu-and-go-on-our-first-international-road-trip)もされた。
+アメリカでレベル4の自動運転を開発している。国土交通省の[資料](https://www.mlit.go.jp/common/001226541.pdf)によるとレベル4は「特定条件下においてシステムがすべての運転タスクを実施」と定義されている。乗客は運転ができなくてもよい。Waymoはロボタクシーを全米4つの都市で提供している(アリゾナ州フェニックス、カリフォルニア州サンフランシスコ、ロスアンゼルス、テキサス州オースティン)。最近では日本交通とGoアプリと提携して東京でテストを始める[発表](https://waymo.com/blog/2024/12/partnering-with-nihon-kotsu-and-go-on-our-first-international-road-trip)もされた。
 
 ## 転職活動と入社した理由
 
