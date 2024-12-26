@@ -9,7 +9,7 @@ keywords:
   - ロボタクシー
   - 無人運転
 date: 2026-12-26
-image:
+image: ./top.png
 ---
 
 Todo: add a pic for sns
