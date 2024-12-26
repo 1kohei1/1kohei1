@@ -40,11 +40,11 @@ Todo: add a pic for sns
 
 当日の様子。自動運転へのサポートを示す黄色いTシャツには"Safer roads for all" (すべての人に安全な道)とプリントされている。
 
-Todo: add a pic 
+![CPUCミーティングの様子](./cpuc-meeting.jpeg)
 
 自動運転に反対している人たちもいた。彼らは抗議の内容を地面に書いていたりした。これらを撮っていたら、アンチ自動運転の人に「すべての人に安全な道をだって(Tシャツに書いてあるメッセージ)！？滑稽だね、危険に決まってる」と言われたが、スルーした。
 
-Todo: add a pic
+![anti-av-message.jpeg](./anti-av-message.jpeg)
 
 ## 2023/10 UberとWaymoのパートナーシップがスタート
 
@@ -54,7 +54,7 @@ Todo: add a pic
 
 この写真はUberのお偉いさんがプロジェクトを体験したいと言うので、チームディナーの最中に諸々を確認している自分。無事Waymoにマッチしてお偉いさんは帰っていった。この写真を気に入っていて社内のプロフィール写真にしている。
 
-Todo: add a pic
+![チームビルディング中に少し確認](./phoenix-test-profile.joeg]
 
 このプロジェクトはメディアからも注目され、[Good morning America](https://twitter.com/GMA/status/1717510193729155163)が取材しに来たりほかのメディアも取り上げた。外から注目される仕事がしたかったのが転職理由の一つだったので、自分がやった仕事が取り上げられたのが嬉しかった。
 
@@ -64,7 +64,11 @@ Uber EatsとWaymoのパートナーシップがフェニックスでローンチ
 
 デリバリーの場合、車をお店のためにできるだけお店の近くに停めたい。そのために、路肩ではなくパーキングスペースに停まれるようにした。([実際のパーキングの様子](https://twitter.com/dmitri_dolgov/status/1775628966956785785?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1775628966956785785%7Ctwgr%5Eed924fdc750d339dc6776d7b48d3c792f8cdd3e7%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.redditmedia.com%2Fmediaembed%2F1bv5n7l%2F%3Fresponsive%3Dtrueis_nightmode%3Dfalse))これが大変でいろんなエンジニアに協力してもらって、テストも何度もして実装された。ローンチの日は結構盛り上がってPMが生成AIを作って[曲を作ったり](https://suno.com/song/a5d46476-248e-4ca1-97c2-c9ec35a40a49)チームメンバーが生成AIでイラストを作った。自分のお気に入りは3枚目で一時期Google Meetの背景画像にしていた。
 
-Todo: add images
+![AV generated image 1](./av-generated-image-1.jpeg]
+
+![AV generated image 2](./av-generated-image-2.jpeg]
+
+![AV generated image 3](./av-generated-image-3.jpeg]
 
 ## Waymoのカルチャー
 
