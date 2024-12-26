@@ -64,11 +64,11 @@ Uber EatsとWaymoのパートナーシップがフェニックスでローンチ
 
 デリバリーの場合、車をお店のためにできるだけお店の近くに停めたい。そのために、路肩ではなくパーキングスペースに停まれるようにした。([実際のパーキングの様子](https://twitter.com/dmitri_dolgov/status/1775628966956785785?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1775628966956785785%7Ctwgr%5Eed924fdc750d339dc6776d7b48d3c792f8cdd3e7%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.redditmedia.com%2Fmediaembed%2F1bv5n7l%2F%3Fresponsive%3Dtrueis_nightmode%3Dfalse))これが大変でいろんなエンジニアに協力してもらって、テストも何度もして実装された。ローンチの日は結構盛り上がってPMが生成AIを作って[曲を作ったり](https://suno.com/song/a5d46476-248e-4ca1-97c2-c9ec35a40a49)チームメンバーが生成AIでイラストを作った。自分のお気に入りは3枚目で一時期Google Meetの背景画像にしていた。
 
-![AV generated image 1](./av-generated-image-1.jpeg]
+![AI generated image 1](./ai-generated-image-1.jpeg]
 
-![AV generated image 2](./av-generated-image-2.jpeg]
+![AI generated image 2](./ai-generated-image-2.jpeg]
 
-![AV generated image 3](./av-generated-image-3.jpeg]
+![AI generated image 3](./ai-generated-image-3.jpeg]
 
 ## Waymoのカルチャー
 
