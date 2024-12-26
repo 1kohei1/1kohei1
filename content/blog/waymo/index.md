@@ -12,8 +12,6 @@ date: 2026-12-26
 image: ./top.png
 ---
 
-Todo: add a pic for sns
-
 2023年の6月にSoftware Engineerとして入社し、一年半が経った。簡単にいうと、会社も成長していて、プロダクトもいろんな人が使ってくれて(よくXで"waymo lang:ja"でエゴサしたり、RedditのSelfDrivingCarのsub redditを読んでる)、とても充実している。
 
 ## Waymoとは
