@@ -59,7 +59,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: process.env.CONTEXT === `production` ? `UA-30602294-5` : ``,
+        trackingId: process.env.CONTEXT === `production` ? `UA-30602294-5` : `testーtracking-id`,
       },
     },
     `gatsby-plugin-twitter`,
